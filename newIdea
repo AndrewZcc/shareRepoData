@@ -10,3 +10,11 @@
 
 现在就可以准备了<br>
 感觉5G时代来临以后一大波创业机会来袭
+
+Problem:
+(容器中 systemd 无法使用)
+bash-4.2# systemctl status
+Failed to connect to bus: No such file or directory
+
+解答：
+* 容器里面的systemd必须作为 第0个进程启动
