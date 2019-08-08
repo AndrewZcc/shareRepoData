@@ -12,6 +12,7 @@ https://www.chaindesk.cn/witbook/17/253
 
 ## Go项目打包成 exe
 
+```
 PS D:\NewPNF\MyRepos\sophon\telemetry\server\src> ls
 PS D:\NewPNF\MyRepos\sophon\telemetry\server\src> go build -o miner.exe .\main.go
 
@@ -19,3 +20,13 @@ GOROOT=D:\Go #gosetup
 GOPATH=D:\NewPNF\MyRepos\sophon\telemetry\server;D:\Go #gosetup
 D:\Go\bin\go.exe build -o C:\Users\z00464159\AppData\Local\Temp\___2go_build_main_go.exe D:/NewPNF/MyRepos/sophon/telemetry/server/src/main.go #gosetup
 "D:\Program Files\JetBrains\GoLand 2018.3.2\bin\runnerw64.exe" C:\Users\z00464159\AppData\Local\Temp\___2go_build_main_go.exe -log_path=D:/temp/logs #gosetup
+```
+
+## GO 打包静态资源文件
+
+```
+go-bindata 【更加推荐】
+* https://www.cnblogs.com/makor/p/build-static-resource-with-golang.html
+statik
+* http://blog.fatedier.com/2016/08/01/compile-assets-into-binary-file-with-statik-in-golang/
+```
