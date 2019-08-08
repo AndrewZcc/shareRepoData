@@ -1,0 +1,20 @@
+
+陈浩(c00421017) 2019-08-06 09:19
+
+我昨天在听5G的应用<br>
+忽然想到一个绝妙的idea
+
+我们可以做一个蚂蚁军团<br>
+让每一只蚂蚁都联网<br>
+然后你就可以控制这只蚂蚁军团排列出阵型
+
+现在就可以准备了<br>
+感觉5G时代来临以后一大波创业机会来袭
+
+Problem:
+(容器中 systemd 无法使用)
+bash-4.2# systemctl status
+Failed to connect to bus: No such file or directory
+
+解答：
+* 容器里面的systemd必须作为 第0个进程启动
