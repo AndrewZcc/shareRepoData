@@ -41,6 +41,7 @@ select * from user where id=1;
 
 # 改 / 更新
 update user set name='zhchuch' where id=1;
+update note_category set cat_rank=cat_rank+100 where floor(cat_rank/100) = 4;
 ```
 
 3. 数据库 其他常用操作
