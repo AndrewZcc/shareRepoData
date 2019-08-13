@@ -1,5 +1,12 @@
 ## Go-bindata 使用
 
+## windows下安装注意
+
+注意：直接安装 go-bindata.exe 中打包出来的go文件 没有RestoreAsset函数，可以自己下载 go-bindata的源码编译出来使用！
+<br>（主要是因为 该github项目 windows版已经在三年前停止了维护，很多新特性只在 linux在支持！）
+
+
+
 ！！简直完美！！（直接打包，然后在代码里解压，运行的时候静态资源会自动解压出来！）
 
 #### main.go
