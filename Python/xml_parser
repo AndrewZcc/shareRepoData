@@ -1,0 +1,67 @@
+rpm -qpi xxx.rpm
+rpm -qp --xml bootscript-1.0.0-1.aarch64.rpm > bootscript_rpm_info.xml
+
+
+-------
+
+```python
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+import sys
+import os
+import xmltodict
+import urllib.request
+import gzip
+
+if len(sys.argv) < 3:
+    print("Error! Please provide the repomd xml-file.")
+    exit(1)
+
+with open(sys.argv[1]) as repo:
+    content = xmltodict.parse(repo.read())
+    repomd = content["repomd"]
+    datas = repomd["data"]
+    for data in datas:
+        if data['@type'] == "filelists":
+            filelist = data["location"]['@href']
+    print(filelist)
+```
+
+<rpmHeader>
+  <rpmTag name="Headeri18ntable">
+    <string>C</string>
+  </rpmTag>
+  <rpmTag name="Sigsize">
+    <integer>232080</integer>
+  </rpmTag>
+  <rpmTag name="Sigmd5">
+    <base64>UB2BeuEEKNh8iiExBQpkXg==
+</base64>
+  </rpmTag>
+  <rpmTag name="Sha1header">
+    <string>4ce22afa1334844760f24863b8bc0875b1a9afdb</string>
+  </rpmTag>
+  <rpmTag name="Name">
+    <string>bootscript</string>
+  </rpmTag>
+  <rpmTag name="Version">
+    <string>1.0.0</string>
+  </rpmTag>
+  <rpmTag name="Release">
+    <string>1</string>
+  </rpmTag>
+  <rpmTag name="Summary">
+    <string>This is quick rpm</string>
+  </rpmTag>
+  <rpmTag name="Description">
+    <string>A rpm build from folder
+git url: %{_url}
+git branch: %{_branch}
+commitid: %{_commitid}</string>
+  </rpmTag>
+  <rpmTag name="Buildtime">
+    <integer>1568690169</integer>
+  </rpmTag>
+ </rpmHeader>
+ 
