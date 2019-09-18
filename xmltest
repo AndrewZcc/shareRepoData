@@ -1,0 +1,658 @@
+
+```xml
+<?xml version="1.0"?>
+<filelists xmlns="http://linux.duke.edu/metadata/filelists" packages="15">
+  <package pkgid="ee05d123b44ad918a9be47fdabe9f961b584bc0d" name="c-ares" arch="aarch64">
+    <version epoch="0" ver="1.15.0" rel="0"/>
+    <file>/usr/bin/acountry</file>
+    <file>/usr/bin/adig</file>
+    <file>/usr/bin/ahost</file>
+    <file>/usr/lib/libcares.so</file>
+    <file>/usr/lib/libcares.so.2</file>
+    <file>/usr/lib/libcares.so.2.3.0</file>
+  </package>
+  <package pkgid="a1f816cf826caf4aee828f1ffe3fcc346fc8df31" name="grpc-devel" arch="x86_64">
+    <version epoch="0" ver="1.18.0" rel="0"/>
+    <file type="dir">/usr/include/grpc</file>
+    <file type="dir">/usr/include/grpc++</file>
+    <file>/usr/include/grpc++/alarm.h</file>
+    <file>/usr/include/grpc++/channel.h</file>
+    <file>/usr/include/grpc++/client_context.h</file>
+    <file>/usr/include/grpc++/completion_queue.h</file>
+    <file>/usr/include/grpc++/create_channel.h</file>
+    <file>/usr/include/grpc++/create_channel_posix.h</file>
+    <file type="dir">/usr/include/grpc++/ext</file>
+    <file>/usr/include/grpc++/ext/health_check_service_server_builder_option.h</file>
+    <file>/usr/include/grpc++/ext/proto_server_reflection_plugin.h</file>
+    <file type="dir">/usr/include/grpc++/generic</file>
+    <file>/usr/include/grpc++/generic/async_generic_service.h</file>
+    <file>/usr/include/grpc++/generic/generic_stub.h</file>
+    <file>/usr/include/grpc++/grpc++.h</file>
+    <file>/usr/include/grpc++/health_check_service_interface.h</file>
+    <file type="dir">/usr/include/grpc++/impl</file>
+    <file>/usr/include/grpc++/impl/call.h</file>
+    <file>/usr/include/grpc++/impl/channel_argument_option.h</file>
+    <file>/usr/include/grpc++/impl/client_unary_call.h</file>
+    <file type="dir">/usr/include/grpc++/impl/codegen</file>
+    <file>/usr/include/grpc++/impl/codegen/async_stream.h</file>
+    <file>/usr/include/grpc++/impl/codegen/async_unary_call.h</file>
+    <file>/usr/include/grpc++/impl/codegen/byte_buffer.h</file>
+    <file>/usr/include/grpc++/impl/codegen/call.h</file>
+    <file>/usr/include/grpc++/impl/codegen/call_hook.h</file>
+    <file>/usr/include/grpc++/impl/codegen/channel_interface.h</file>
+    <file>/usr/include/grpc++/impl/codegen/client_context.h</file>
+    <file>/usr/include/grpc++/impl/codegen/client_unary_call.h</file>
+    <file>/usr/include/grpc++/impl/codegen/completion_queue.h</file>
+    <file>/usr/include/grpc++/impl/codegen/completion_queue_tag.h</file>
+    <file>/usr/include/grpc++/impl/codegen/config.h</file>
+    <file>/usr/include/grpc++/impl/codegen/config_protobuf.h</file>
+    <file>/usr/include/grpc++/impl/codegen/core_codegen.h</file>
+    <file>/usr/include/grpc++/impl/codegen/core_codegen_interface.h</file>
+    <file>/usr/include/grpc++/impl/codegen/create_auth_context.h</file>
+    <file>/usr/include/grpc++/impl/codegen/grpc_library.h</file>
+    <file>/usr/include/grpc++/impl/codegen/metadata_map.h</file>
+    <file>/usr/include/grpc++/impl/codegen/method_handler_impl.h</file>
+    <file>/usr/include/grpc++/impl/codegen/proto_utils.h</file>
+    <file>/usr/include/grpc++/impl/codegen/rpc_method.h</file>
+    <file>/usr/include/grpc++/impl/codegen/rpc_service_method.h</file>
+    <file type="dir">/usr/include/grpc++/impl/codegen/security</file>
+    <file>/usr/include/grpc++/impl/codegen/security/auth_context.h</file>
+    <file>/usr/include/grpc++/impl/codegen/serialization_traits.h</file>
+    <file>/usr/include/grpc++/impl/codegen/server_context.h</file>
+    <file>/usr/include/grpc++/impl/codegen/server_interface.h</file>
+    <file>/usr/include/grpc++/impl/codegen/service_type.h</file>
+    <file>/usr/include/grpc++/impl/codegen/slice.h</file>
+    <file>/usr/include/grpc++/impl/codegen/status.h</file>
+    <file>/usr/include/grpc++/impl/codegen/status_code_enum.h</file>
+    <file>/usr/include/grpc++/impl/codegen/string_ref.h</file>
+    <file>/usr/include/grpc++/impl/codegen/stub_options.h</file>
+    <file>/usr/include/grpc++/impl/codegen/sync_stream.h</file>
+    <file>/usr/include/grpc++/impl/codegen/time.h</file>
+    <file>/usr/include/grpc++/impl/grpc_library.h</file>
+    <file>/usr/include/grpc++/impl/method_handler_impl.h</file>
+    <file>/usr/include/grpc++/impl/rpc_method.h</file>
+    <file>/usr/include/grpc++/impl/rpc_service_method.h</file>
+    <file>/usr/include/grpc++/impl/serialization_traits.h</file>
+    <file>/usr/include/grpc++/impl/server_builder_option.h</file>
+    <file>/usr/include/grpc++/impl/server_builder_plugin.h</file>
+    <file>/usr/include/grpc++/impl/server_initializer.h</file>
+    <file>/usr/include/grpc++/impl/service_type.h</file>
+    <file>/usr/include/grpc++/resource_quota.h</file>
+    <file type="dir">/usr/include/grpc++/security</file>
+    <file>/usr/include/grpc++/security/auth_context.h</file>
+    <file>/usr/include/grpc++/security/auth_metadata_processor.h</file>
+    <file>/usr/include/grpc++/security/credentials.h</file>
+    <file>/usr/include/grpc++/security/server_credentials.h</file>
+    <file>/usr/include/grpc++/server.h</file>
+    <file>/usr/include/grpc++/server_builder.h</file>
+    <file>/usr/include/grpc++/server_context.h</file>
+    <file>/usr/include/grpc++/server_posix.h</file>
+    <file type="dir">/usr/include/grpc++/support</file>
+    <file>/usr/include/grpc++/support/async_stream.h</file>
+    <file>/usr/include/grpc++/support/async_unary_call.h</file>
+    <file>/usr/include/grpc++/support/byte_buffer.h</file>
+    <file>/usr/include/grpc++/support/channel_arguments.h</file>
+    <file>/usr/include/grpc++/support/config.h</file>
+    <file>/usr/include/grpc++/support/error_details.h</file>
+    <file>/usr/include/grpc++/support/slice.h</file>
+    <file>/usr/include/grpc++/support/status.h</file>
+    <file>/usr/include/grpc++/support/status_code_enum.h</file>
+    <file>/usr/include/grpc++/support/string_ref.h</file>
+    <file>/usr/include/grpc++/support/stub_options.h</file>
+    <file>/usr/include/grpc++/support/sync_stream.h</file>
+    <file>/usr/include/grpc++/support/time.h</file>
+    <file>/usr/include/grpc/byte_buffer.h</file>
+    <file>/usr/include/grpc/byte_buffer_reader.h</file>
+    <file>/usr/include/grpc/census.h</file>
+    <file>/usr/include/grpc/compression.h</file>
+    <file>/usr/include/grpc/fork.h</file>
+    <file>/usr/include/grpc/grpc.h</file>
+    <file>/usr/include/grpc/grpc_cronet.h</file>
+    <file>/usr/include/grpc/grpc_posix.h</file>
+    <file>/usr/include/grpc/grpc_security.h</file>
+    <file>/usr/include/grpc/grpc_security_constants.h</file>
+    <file type="dir">/usr/include/grpc/impl</file>
+    <file type="dir">/usr/include/grpc/impl/codegen</file>
+    <file>/usr/include/grpc/impl/codegen/atm.h</file>
+    <file>/usr/include/grpc/impl/codegen/atm_gcc_atomic.h</file>
+    <file>/usr/include/grpc/impl/codegen/atm_gcc_sync.h</file>
+    <file>/usr/include/grpc/impl/codegen/atm_windows.h</file>
+    <file>/usr/include/grpc/impl/codegen/byte_buffer.h</file>
+    <file>/usr/include/grpc/impl/codegen/byte_buffer_reader.h</file>
+    <file>/usr/include/grpc/impl/codegen/compression_types.h</file>
+    <file>/usr/include/grpc/impl/codegen/connectivity_state.h</file>
+    <file>/usr/include/grpc/impl/codegen/fork.h</file>
+    <file>/usr/include/grpc/impl/codegen/gpr_slice.h</file>
+    <file>/usr/include/grpc/impl/codegen/gpr_types.h</file>
+    <file>/usr/include/grpc/impl/codegen/grpc_types.h</file>
+    <file>/usr/include/grpc/impl/codegen/log.h</file>
+    <file>/usr/include/grpc/impl/codegen/port_platform.h</file>
+    <file>/usr/include/grpc/impl/codegen/propagation_bits.h</file>
+    <file>/usr/include/grpc/impl/codegen/slice.h</file>
+    <file>/usr/include/grpc/impl/codegen/status.h</file>
+    <file>/usr/include/grpc/impl/codegen/sync.h</file>
+    <file>/usr/include/grpc/impl/codegen/sync_custom.h</file>
+    <file>/usr/include/grpc/impl/codegen/sync_generic.h</file>
+    <file>/usr/include/grpc/impl/codegen/sync_posix.h</file>
+    <file>/usr/include/grpc/impl/codegen/sync_windows.h</file>
+    <file>/usr/include/grpc/load_reporting.h</file>
+    <file>/usr/include/grpc/slice.h</file>
+    <file>/usr/include/grpc/slice_buffer.h</file>
+    <file>/usr/include/grpc/status.h</file>
+    <file type="dir">/usr/include/grpc/support</file>
+    <file>/usr/include/grpc/support/alloc.h</file>
+    <file>/usr/include/grpc/support/atm.h</file>
+    <file>/usr/include/grpc/support/atm_gcc_atomic.h</file>
+    <file>/usr/include/grpc/support/atm_gcc_sync.h</file>
+    <file>/usr/include/grpc/support/atm_windows.h</file>
+    <file>/usr/include/grpc/support/cpu.h</file>
+    <file>/usr/include/grpc/support/log.h</file>
+    <file>/usr/include/grpc/support/log_windows.h</file>
+    <file>/usr/include/grpc/support/port_platform.h</file>
+    <file>/usr/include/grpc/support/string_util.h</file>
+    <file>/usr/include/grpc/support/sync.h</file>
+    <file>/usr/include/grpc/support/sync_custom.h</file>
+    <file>/usr/include/grpc/support/sync_generic.h</file>
+    <file>/usr/include/grpc/support/sync_posix.h</file>
+    <file>/usr/include/grpc/support/sync_windows.h</file>
+    <file>/usr/include/grpc/support/thd_id.h</file>
+    <file>/usr/include/grpc/support/time.h</file>
+    <file>/usr/include/grpc/support/workaround_list.h</file>
+    <file type="dir">/usr/include/grpcpp</file>
+    <file>/usr/include/grpcpp/alarm.h</file>
+    <file>/usr/include/grpcpp/alarm_impl.h</file>
+    <file>/usr/include/grpcpp/channel.h</file>
+    <file>/usr/include/grpcpp/client_context.h</file>
+    <file>/usr/include/grpcpp/completion_queue.h</file>
+    <file>/usr/include/grpcpp/create_channel.h</file>
+    <file>/usr/include/grpcpp/create_channel_posix.h</file>
+    <file type="dir">/usr/include/grpcpp/ext</file>
+    <file>/usr/include/grpcpp/ext/channelz_service_plugin.h</file>
+    <file>/usr/include/grpcpp/ext/health_check_service_server_builder_option.h</file>
+    <file>/usr/include/grpcpp/ext/proto_server_reflection_plugin.h</file>
+    <file type="dir">/usr/include/grpcpp/generic</file>
+    <file>/usr/include/grpcpp/generic/async_generic_service.h</file>
+    <file>/usr/include/grpcpp/generic/generic_stub.h</file>
+    <file>/usr/include/grpcpp/grpcpp.h</file>
+    <file>/usr/include/grpcpp/health_check_service_interface.h</file>
+    <file type="dir">/usr/include/grpcpp/impl</file>
+    <file>/usr/include/grpcpp/impl/call.h</file>
+    <file>/usr/include/grpcpp/impl/channel_argument_option.h</file>
+    <file>/usr/include/grpcpp/impl/client_unary_call.h</file>
+    <file type="dir">/usr/include/grpcpp/impl/codegen</file>
+    <file>/usr/include/grpcpp/impl/codegen/async_generic_service.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/async_stream.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/async_unary_call.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/byte_buffer.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/call.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/call_hook.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/call_op_set.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/call_op_set_interface.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/callback_common.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/channel_interface.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/client_callback.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/client_context.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/client_interceptor.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/client_unary_call.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/completion_queue.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/completion_queue_tag.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/config.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/config_protobuf.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/core_codegen.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/core_codegen_interface.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/create_auth_context.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/grpc_library.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/intercepted_channel.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/interceptor.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/interceptor_common.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/metadata_map.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/method_handler_impl.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/proto_buffer_reader.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/proto_buffer_writer.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/proto_utils.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/rpc_method.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/rpc_service_method.h</file>
+    <file type="dir">/usr/include/grpcpp/impl/codegen/security</file>
+    <file>/usr/include/grpcpp/impl/codegen/security/auth_context.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/serialization_traits.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/server_callback.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/server_context.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/server_interceptor.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/server_interface.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/service_type.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/slice.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/status.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/status_code_enum.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/string_ref.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/stub_options.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/sync_stream.h</file>
+    <file>/usr/include/grpcpp/impl/codegen/time.h</file>
+    <file>/usr/include/grpcpp/impl/grpc_library.h</file>
+    <file>/usr/include/grpcpp/impl/method_handler_impl.h</file>
+    <file>/usr/include/grpcpp/impl/rpc_method.h</file>
+    <file>/usr/include/grpcpp/impl/rpc_service_method.h</file>
+    <file>/usr/include/grpcpp/impl/serialization_traits.h</file>
+    <file>/usr/include/grpcpp/impl/server_builder_option.h</file>
+    <file>/usr/include/grpcpp/impl/server_builder_plugin.h</file>
+    <file>/usr/include/grpcpp/impl/server_initializer.h</file>
+    <file>/usr/include/grpcpp/impl/service_type.h</file>
+    <file>/usr/include/grpcpp/resource_quota.h</file>
+    <file type="dir">/usr/include/grpcpp/security</file>
+    <file>/usr/include/grpcpp/security/auth_context.h</file>
+    <file>/usr/include/grpcpp/security/auth_metadata_processor.h</file>
+    <file>/usr/include/grpcpp/security/credentials.h</file>
+    <file>/usr/include/grpcpp/security/server_credentials.h</file>
+    <file>/usr/include/grpcpp/server.h</file>
+    <file>/usr/include/grpcpp/server_builder.h</file>
+    <file>/usr/include/grpcpp/server_context.h</file>
+    <file>/usr/include/grpcpp/server_posix.h</file>
+    <file type="dir">/usr/include/grpcpp/support</file>
+    <file>/usr/include/grpcpp/support/async_stream.h</file>
+    <file>/usr/include/grpcpp/support/async_unary_call.h</file>
+    <file>/usr/include/grpcpp/support/byte_buffer.h</file>
+    <file>/usr/include/grpcpp/support/channel_arguments.h</file>
+    <file>/usr/include/grpcpp/support/client_callback.h</file>
+    <file>/usr/include/grpcpp/support/client_interceptor.h</file>
+    <file>/usr/include/grpcpp/support/config.h</file>
+    <file>/usr/include/grpcpp/support/error_details.h</file>
+    <file>/usr/include/grpcpp/support/interceptor.h</file>
+    <file>/usr/include/grpcpp/support/proto_buffer_reader.h</file>
+    <file>/usr/include/grpcpp/support/proto_buffer_writer.h</file>
+    <file>/usr/include/grpcpp/support/server_callback.h</file>
+    <file>/usr/include/grpcpp/support/server_interceptor.h</file>
+    <file>/usr/include/grpcpp/support/slice.h</file>
+    <file>/usr/include/grpcpp/support/status.h</file>
+    <file>/usr/include/grpcpp/support/status_code_enum.h</file>
+    <file>/usr/include/grpcpp/support/string_ref.h</file>
+    <file>/usr/include/grpcpp/support/stub_options.h</file>
+    <file>/usr/include/grpcpp/support/sync_stream.h</file>
+    <file>/usr/include/grpcpp/support/time.h</file>
+  </package>
+  <package pkgid="af8c4f8fa7c3ffaca6ccba056a11974d4b293faa" name="jemalloc-debuginfo" arch="x86_64">
+    <version epoch="0" ver="5.1.0" rel="1"/>
+    <file type="dir">/usr/lib/debug</file>
+    <file type="dir">/usr/lib/debug/.build-id</file>
+    <file type="dir">/usr/lib/debug/.build-id/42</file>
+    <file>/usr/lib/debug/.build-id/42/c8fcb06cfb79b2b94a1e82c47399d0c06690e3.debug</file>
+    <file type="dir">/usr/lib/debug/.build-id/ce</file>
+    <file>/usr/lib/debug/.build-id/ce/f1a4cf10a0c807d2c9c83ca5c0fdd8337671ac</file>
+    <file>/usr/lib/debug/.build-id/ce/f1a4cf10a0c807d2c9c83ca5c0fdd8337671ac.1</file>
+    <file>/usr/lib/debug/.build-id/ce/f1a4cf10a0c807d2c9c83ca5c0fdd8337671ac.1.debug</file>
+    <file>/usr/lib/debug/.build-id/ce/f1a4cf10a0c807d2c9c83ca5c0fdd8337671ac.debug</file>
+    <file type="dir">/usr/lib/debug/.dwz</file>
+    <file>/usr/lib/debug/.dwz/jemalloc-5.1.0-1.x86_64</file>
+    <file type="dir">/usr/lib/debug/lib</file>
+    <file>/usr/lib/debug/lib/libjemalloc.so.2.debug</file>
+    <file>/usr/lib/debug/lib/libjemalloc.so.debug</file>
+    <file type="dir">/usr/src/debug/jemalloc-5.1.0</file>
+    <file type="dir">/usr/src/debug/jemalloc-5.1.0/include</file>
+    <file type="dir">/usr/src/debug/jemalloc-5.1.0/include/jemalloc</file>
+    <file type="dir">/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_inlines_a.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_inlines_b.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_stats.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_structs_a.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_structs_b.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/arena_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/assert.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/atomic.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/atomic_gcc_atomic.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/background_thread_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/background_thread_inlines.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/background_thread_structs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/base_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/base_inlines.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/base_structs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/base_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/bin.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/bin_stats.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/bit_util.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/bitmap.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/cache_bin.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/ckh.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/ctl.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/div.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/emitter.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_dss.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_inlines.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_mmap.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_structs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/extent_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/hash.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/hooks.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_decls.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_defs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_includes.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_inlines_a.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_inlines_b.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_inlines_c.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_macros.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_internal_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/jemalloc_preamble.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/large_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/log.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/malloc_io.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/mutex.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/mutex_pool.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/mutex_prof.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/nstime.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/pages.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/ph.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/private_namespace.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prng.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prof_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prof_inlines_a.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prof_inlines_b.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prof_structs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/prof_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/ql.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/qr.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/rb.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/rtree.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/rtree_tsd.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/size_classes.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/smoothstep.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/spin.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/stats.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/sz.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tcache_externs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tcache_inlines.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tcache_structs.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tcache_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/ticker.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tsd.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tsd_tls.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/tsd_types.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/util.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/internal/witness.h</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/include/jemalloc/jemalloc.h</file>
+    <file type="dir">/usr/src/debug/jemalloc-5.1.0/src</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/arena.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/background_thread.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/base.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/bin.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/bitmap.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/ckh.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/ctl.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/div.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/extent.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/extent_dss.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/extent_mmap.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/hash.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/hooks.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/jemalloc.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/large.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/log.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/malloc_io.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/mutex.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/mutex_pool.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/nstime.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/pages.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/prng.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/prof.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/rtree.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/stats.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/sz.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/tcache.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/ticker.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/tsd.c</file>
+    <file>/usr/src/debug/jemalloc-5.1.0/src/witness.c</file>
+  </package>
+  <package pkgid="efc267e9279f6671d4071a88584a57f369a7e162" name="jansson" arch="x86_64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file>/lib/libjansson.so</file>
+    <file>/lib/libjansson.so.4</file>
+    <file>/lib/libjansson.so.4.11.1</file>
+  </package>
+  <package pkgid="7cd023f19030986cb889cbd47223a8f898b10e03" name="jansson-debuginfo" arch="x86_64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file type="dir">/usr/lib/debug</file>
+    <file type="dir">/usr/lib/debug/lib</file>
+    <file>/usr/lib/debug/lib/libjansson.so.4.11.1.debug</file>
+    <file>/usr/lib/debug/lib/libjansson.so.4.debug</file>
+    <file>/usr/lib/debug/lib/libjansson.so.debug</file>
+    <file type="dir">/usr/src/debug/jansson-2.12</file>
+    <file type="dir">/usr/src/debug/jansson-2.12/src</file>
+    <file>/usr/src/debug/jansson-2.12/src/dump.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/error.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable_seed.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/jansson.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/jansson_private.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/load.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/lookup3.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/memory.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/pack_unpack.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/strbuffer.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/strbuffer.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/strconv.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/utf.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/utf.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/value.c</file>
+  </package>
+  <package pkgid="3fa755d64a69b1b913603d06fbe9898ecb9a72b6" name="jansson-devel" arch="aarch64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file>/include/jansson.h</file>
+    <file>/include/jansson_config.h</file>
+  </package>
+  <package pkgid="2e6bb1b7d8fda7b48c95e84458a05331f8fa76e4" name="protobuf-devel" arch="aarch64">
+    <version epoch="0" ver="3.6.1" rel="0"/>
+    <file type="dir">/usr/include/google</file>
+    <file type="dir">/usr/include/google/protobuf</file>
+    <file>/usr/include/google/protobuf/any.h</file>
+    <file>/usr/include/google/protobuf/any.pb.h</file>
+    <file>/usr/include/google/protobuf/any.proto</file>
+    <file>/usr/include/google/protobuf/api.pb.h</file>
+    <file>/usr/include/google/protobuf/api.proto</file>
+    <file>/usr/include/google/protobuf/arena.h</file>
+    <file>/usr/include/google/protobuf/arena_impl.h</file>
+    <file>/usr/include/google/protobuf/arenastring.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler</file>
+    <file>/usr/include/google/protobuf/compiler/code_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/command_line_interface.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/cpp</file>
+    <file>/usr/include/google/protobuf/compiler/cpp/cpp_generator.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/csharp</file>
+    <file>/usr/include/google/protobuf/compiler/csharp/csharp_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/csharp/csharp_names.h</file>
+    <file>/usr/include/google/protobuf/compiler/importer.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/java</file>
+    <file>/usr/include/google/protobuf/compiler/java/java_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/java/java_names.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/js</file>
+    <file>/usr/include/google/protobuf/compiler/js/js_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/js/well_known_types_embed.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/objectivec</file>
+    <file>/usr/include/google/protobuf/compiler/objectivec/objectivec_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/objectivec/objectivec_helpers.h</file>
+    <file>/usr/include/google/protobuf/compiler/parser.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/php</file>
+    <file>/usr/include/google/protobuf/compiler/php/php_generator.h</file>
+    <file>/usr/include/google/protobuf/compiler/plugin.h</file>
+    <file>/usr/include/google/protobuf/compiler/plugin.pb.h</file>
+    <file>/usr/include/google/protobuf/compiler/plugin.proto</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/python</file>
+    <file>/usr/include/google/protobuf/compiler/python/python_generator.h</file>
+    <file type="dir">/usr/include/google/protobuf/compiler/ruby</file>
+    <file>/usr/include/google/protobuf/compiler/ruby/ruby_generator.h</file>
+    <file>/usr/include/google/protobuf/descriptor.h</file>
+    <file>/usr/include/google/protobuf/descriptor.pb.h</file>
+    <file>/usr/include/google/protobuf/descriptor.proto</file>
+    <file>/usr/include/google/protobuf/descriptor_database.h</file>
+    <file>/usr/include/google/protobuf/duration.pb.h</file>
+    <file>/usr/include/google/protobuf/duration.proto</file>
+    <file>/usr/include/google/protobuf/dynamic_message.h</file>
+    <file>/usr/include/google/protobuf/empty.pb.h</file>
+    <file>/usr/include/google/protobuf/empty.proto</file>
+    <file>/usr/include/google/protobuf/extension_set.h</file>
+    <file>/usr/include/google/protobuf/field_mask.pb.h</file>
+    <file>/usr/include/google/protobuf/field_mask.proto</file>
+    <file>/usr/include/google/protobuf/generated_enum_reflection.h</file>
+    <file>/usr/include/google/protobuf/generated_enum_util.h</file>
+    <file>/usr/include/google/protobuf/generated_message_reflection.h</file>
+    <file>/usr/include/google/protobuf/generated_message_table_driven.h</file>
+    <file>/usr/include/google/protobuf/generated_message_util.h</file>
+    <file>/usr/include/google/protobuf/has_bits.h</file>
+    <file>/usr/include/google/protobuf/implicit_weak_message.h</file>
+    <file>/usr/include/google/protobuf/inlined_string_field.h</file>
+    <file type="dir">/usr/include/google/protobuf/io</file>
+    <file>/usr/include/google/protobuf/io/coded_stream.h</file>
+    <file>/usr/include/google/protobuf/io/gzip_stream.h</file>
+    <file>/usr/include/google/protobuf/io/printer.h</file>
+    <file>/usr/include/google/protobuf/io/strtod.h</file>
+    <file>/usr/include/google/protobuf/io/tokenizer.h</file>
+    <file>/usr/include/google/protobuf/io/zero_copy_stream.h</file>
+    <file>/usr/include/google/protobuf/io/zero_copy_stream_impl.h</file>
+    <file>/usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h</file>
+    <file>/usr/include/google/protobuf/map.h</file>
+    <file>/usr/include/google/protobuf/map_entry.h</file>
+    <file>/usr/include/google/protobuf/map_entry_lite.h</file>
+    <file>/usr/include/google/protobuf/map_field.h</file>
+    <file>/usr/include/google/protobuf/map_field_inl.h</file>
+    <file>/usr/include/google/protobuf/map_field_lite.h</file>
+    <file>/usr/include/google/protobuf/map_type_handler.h</file>
+    <file>/usr/include/google/protobuf/message.h</file>
+    <file>/usr/include/google/protobuf/message_lite.h</file>
+    <file>/usr/include/google/protobuf/metadata.h</file>
+    <file>/usr/include/google/protobuf/metadata_lite.h</file>
+    <file>/usr/include/google/protobuf/reflection.h</file>
+    <file>/usr/include/google/protobuf/reflection_ops.h</file>
+    <file>/usr/include/google/protobuf/repeated_field.h</file>
+    <file>/usr/include/google/protobuf/service.h</file>
+    <file>/usr/include/google/protobuf/source_context.pb.h</file>
+    <file>/usr/include/google/protobuf/source_context.proto</file>
+    <file>/usr/include/google/protobuf/struct.pb.h</file>
+    <file>/usr/include/google/protobuf/struct.proto</file>
+    <file type="dir">/usr/include/google/protobuf/stubs</file>
+    <file>/usr/include/google/protobuf/stubs/bytestream.h</file>
+    <file>/usr/include/google/protobuf/stubs/callback.h</file>
+    <file>/usr/include/google/protobuf/stubs/casts.h</file>
+    <file>/usr/include/google/protobuf/stubs/common.h</file>
+    <file>/usr/include/google/protobuf/stubs/fastmem.h</file>
+    <file>/usr/include/google/protobuf/stubs/hash.h</file>
+    <file>/usr/include/google/protobuf/stubs/logging.h</file>
+    <file>/usr/include/google/protobuf/stubs/macros.h</file>
+    <file>/usr/include/google/protobuf/stubs/mutex.h</file>
+    <file>/usr/include/google/protobuf/stubs/once.h</file>
+    <file>/usr/include/google/protobuf/stubs/platform_macros.h</file>
+    <file>/usr/include/google/protobuf/stubs/port.h</file>
+    <file>/usr/include/google/protobuf/stubs/singleton.h</file>
+    <file>/usr/include/google/protobuf/stubs/status.h</file>
+    <file>/usr/include/google/protobuf/stubs/stl_util.h</file>
+    <file>/usr/include/google/protobuf/stubs/stringpiece.h</file>
+    <file>/usr/include/google/protobuf/stubs/template_util.h</file>
+    <file>/usr/include/google/protobuf/text_format.h</file>
+    <file>/usr/include/google/protobuf/timestamp.pb.h</file>
+    <file>/usr/include/google/protobuf/timestamp.proto</file>
+    <file>/usr/include/google/protobuf/type.pb.h</file>
+    <file>/usr/include/google/protobuf/type.proto</file>
+    <file>/usr/include/google/protobuf/unknown_field_set.h</file>
+    <file type="dir">/usr/include/google/protobuf/util</file>
+    <file>/usr/include/google/protobuf/util/delimited_message_util.h</file>
+    <file>/usr/include/google/protobuf/util/field_comparator.h</file>
+    <file>/usr/include/google/protobuf/util/field_mask_util.h</file>
+    <file>/usr/include/google/protobuf/util/json_util.h</file>
+    <file>/usr/include/google/protobuf/util/message_differencer.h</file>
+    <file>/usr/include/google/protobuf/util/time_util.h</file>
+    <file>/usr/include/google/protobuf/util/type_resolver.h</file>
+    <file>/usr/include/google/protobuf/util/type_resolver_util.h</file>
+    <file>/usr/include/google/protobuf/wire_format.h</file>
+    <file>/usr/include/google/protobuf/wire_format_lite.h</file>
+    <file>/usr/include/google/protobuf/wire_format_lite_inl.h</file>
+    <file>/usr/include/google/protobuf/wrappers.pb.h</file>
+    <file>/usr/include/google/protobuf/wrappers.proto</file>
+  </package>
+  <package pkgid="68ec38bb7e5c5540c361a474baaf1387a0802558" name="c-ares-devel" arch="aarch64">
+    <version epoch="0" ver="1.15.0" rel="0"/>
+    <file>/usr/include/ares.h</file>
+    <file>/usr/include/ares_build.h</file>
+    <file>/usr/include/ares_dns.h</file>
+    <file>/usr/include/ares_rules.h</file>
+    <file>/usr/include/ares_version.h</file>
+  </package>
+  <package pkgid="f12d252f95475fb1e830a37fd5bb296a6697afe2" name="grpc" arch="x86_64">
+    <version epoch="0" ver="1.18.0" rel="0"/>
+    <file>/usr/bin/grpc_cpp_plugin</file>
+    <file>/usr/bin/grpc_csharp_plugin</file>
+    <file>/usr/bin/grpc_node_plugin</file>
+    <file>/usr/bin/grpc_objective_c_plugin</file>
+    <file>/usr/bin/grpc_php_plugin</file>
+    <file>/usr/bin/grpc_python_plugin</file>
+    <file>/usr/bin/grpc_ruby_plugin</file>
+    <file>/usr/lib/libaddress_sorting.so</file>
+    <file>/usr/lib/libgpr.so</file>
+    <file>/usr/lib/libgrpc++.so</file>
+    <file>/usr/lib/libgrpc++_cronet.so</file>
+    <file>/usr/lib/libgrpc++_error_details.so</file>
+    <file>/usr/lib/libgrpc++_reflection.so</file>
+    <file>/usr/lib/libgrpc++_unsecure.so</file>
+    <file>/usr/lib/libgrpc.so</file>
+    <file>/usr/lib/libgrpc_cronet.so</file>
+    <file>/usr/lib/libgrpc_csharp_ext.so</file>
+    <file>/usr/lib/libgrpc_plugin_support.so</file>
+    <file>/usr/lib/libgrpc_unsecure.so</file>
+    <file>/usr/lib/libgrpcpp_channelz.so</file>
+  </package>
+  <package pkgid="c90b34ec13478530e1a620296ce1fc05adcb798b" name="jansson" arch="aarch64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file>/lib/libjansson.so</file>
+    <file>/lib/libjansson.so.4</file>
+    <file>/lib/libjansson.so.4.11.1</file>
+  </package>
+  <package pkgid="6cc32ba0dcd8ce299b4a7ecc9ce2930aa0d6ecde" name="jemalloc" arch="x86_64">
+    <version epoch="0" ver="5.1.0" rel="1"/>
+    <file>/lib/libjemalloc.so</file>
+    <file>/lib/libjemalloc.so.2</file>
+  </package>
+  <package pkgid="3e15f4bcec6a294942d8d96201e2e585de9a9696" name="jansson-devel" arch="x86_64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file>/include/jansson.h</file>
+    <file>/include/jansson_config.h</file>
+  </package>
+  <package pkgid="5b20d90a0b6be01a8838744e472d2de734f28ab0" name="jansson-debuginfo" arch="aarch64">
+    <version epoch="0" ver="2.12" rel="1.el7"/>
+    <file type="dir">/usr/lib/debug</file>
+    <file type="dir">/usr/lib/debug/lib</file>
+    <file>/usr/lib/debug/lib/libjansson.so.4.11.1.debug</file>
+    <file>/usr/lib/debug/lib/libjansson.so.4.debug</file>
+    <file>/usr/lib/debug/lib/libjansson.so.debug</file>
+    <file type="dir">/usr/src/debug/jansson-2.12</file>
+    <file type="dir">/usr/src/debug/jansson-2.12/src</file>
+    <file>/usr/src/debug/jansson-2.12/src/dump.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/error.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/hashtable_seed.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/jansson.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/jansson_private.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/load.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/lookup3.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/memory.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/pack_unpack.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/strbuffer.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/strbuffer.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/strconv.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/utf.c</file>
+    <file>/usr/src/debug/jansson-2.12/src/utf.h</file>
+    <file>/usr/src/debug/jansson-2.12/src/value.c</file>
+  </package>
+  <package pkgid="445e73ead8fe8cfc1f709b854bb76193f4bc4def" name="protobuf" arch="aarch64">
+    <version epoch="0" ver="3.6.1" rel="0"/>
+    <file>/usr/bin/protoc</file>
+    <file>/usr/lib/libprotobuf-lite.so</file>
+    <file>/usr/lib/libprotobuf-lite.so.3.6.1</file>
+    <file>/usr/lib/libprotobuf.so</file>
+    <file>/usr/lib/libprotobuf.so.3.6.1</file>
+    <file>/usr/lib/libprotoc.so</file>
+    <file>/usr/lib/libprotoc.so.3.6.1</file>
+  </package>
+  <package pkgid="6467bfd5e429af9bb1a78bf22d78290f63235024" name="jemalloc-devel" arch="x86_64">
+    <version epoch="0" ver="5.1.0" rel="1"/>
+    <file>/include/jemalloc.h</file>
+  </package>
+</filelists>
+```
