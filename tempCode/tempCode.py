@@ -1,5 +1,5 @@
+from functools import wraps
 
-```python
 def login_required(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -8,4 +8,3 @@ def login_required(func):
         else:
             return redirect(url_for('main.login'))
     return wrapper
-```
